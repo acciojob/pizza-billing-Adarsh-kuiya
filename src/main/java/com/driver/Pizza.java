@@ -8,7 +8,7 @@ public class Pizza {
     private int cheesePrice;
     private int toppingPrice;
     private int paperBagPrice;
-    private int basePrize;
+
 
     private  boolean extraCheese;
     private boolean isBillGenerated;
@@ -16,24 +16,24 @@ public class Pizza {
     private boolean takeAway;
     public Pizza(Boolean isVeg){
         this.isVeg = isVeg;
-    cheesePrice=80;
-    paperBagPrice=20;
+    this.cheesePrice=80;
+    this.paperBagPrice=20;
 
       if(isVeg){
           if(isVeg==true){
-    basePrize=300;
-    toppingPrice=70;
+    this.price=300;
+    this.toppingPrice=70;
 }
 else{
-basePrize= 400;
-toppingPrice=120;
+this.price= 400;
+this.toppingPrice=120;
 }
   extraCheese=false;
   extraTopping=false;
   takeAway=false;
   isBillGenerated=false;
-   this.bill=this.bill+"Base Price Of The Pizza:"+this.basePrize+"\n";
-   this.price=this.price+this.basePrize;   }
+   this.bill="Base Price Of The Pizza:"+this.price+"\n";
+     }
         // your code goes here
     }
 
