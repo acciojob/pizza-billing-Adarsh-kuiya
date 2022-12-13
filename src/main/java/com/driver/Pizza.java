@@ -65,13 +65,13 @@ this.toppingPrice=120;
     public String getBill(){
         if(isBillGenerated==false){
     if(extraCheese==true){
-        this.bill=this.bill+"Extra Cheese Added:"+this.cheesePrice+"/n";// your code goes here
+        this.bill=this.bill+"Extra Cheese Added:"+this.cheesePrice+"\n";// your code goes here
     }
     if(extraTopping==true){
-        this.bill=this.bill+"Extra Toppings Added:"+this.toppingPrice+"/n";
+        this.bill=this.bill+"Extra Toppings Added:"+this.toppingPrice+"\n";
     }
     if(takeAway==true){
-        this.bill=this.bill+"Paperbag Added:"+this.paperBagPrice+"/n";
+        this.bill=this.bill+"Paperbag Added:"+this.paperBagPrice+"\n";
     }
     this.bill=this.bill+"Total Price:"+this.price;
        isBillGenerated=true;
