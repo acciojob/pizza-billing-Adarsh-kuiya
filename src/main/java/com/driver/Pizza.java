@@ -19,7 +19,7 @@ public class Pizza {
     this.cheesePrice=80;
     this.paperBagPrice=20;
 
-      if(isVeg){
+
           if(isVeg==true){
     this.price=300;
     this.toppingPrice=70;
@@ -33,8 +33,7 @@ this.toppingPrice=120;
   takeAway=false;
 
    this.bill="Base Price Of The Pizza: "+this.price+"\n";
-     }
-        // your code goes here
+   // your code goes here
     }
 
     public int getPrice(){
