@@ -31,7 +31,7 @@ this.toppingPrice=120;
   extraCheese=false;
   extraTopping=false;
   takeAway=false;
-  isBillGenerated=false;
+
    this.bill="Base Price Of The Pizza:"+this.price+"\n";
      }
         // your code goes here
