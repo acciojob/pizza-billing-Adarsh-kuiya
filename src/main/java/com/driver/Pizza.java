@@ -72,7 +72,7 @@ this.toppingPrice=120;
     if(takeAway==true){
         this.bill=this.bill+"Paperbag Added: "+this.paperBagPrice+"\n";
     }
-    this.bill=this.bill+"Total Price: "+this.price;
+    this.bill=this.bill+"Total Price: "+this.price+"\n";
        isBillGenerated=true;
         }
         return this.bill;
